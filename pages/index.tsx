@@ -64,8 +64,9 @@ export default function Home() {
             🚧 Site is Under Maintenance 🚧
           </h1>
           <p className="text-base sm:text-lg xl:text-x text-gray-300 mb-6 text-center">
-            'Sorry for the inconvenience, we are currently working on the site
-            to make it better. Please come back later.'
+            {
+              "Sorry for the inconvenience, we are currently working on the site to make it better. Please come back later."
+            }
           </p>
           <div className="flex gap-5">
             {/* Github */}
