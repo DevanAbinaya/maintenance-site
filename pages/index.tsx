@@ -70,7 +70,7 @@ export default function Home() {
           </p>
           <div className="flex gap-5">
             {/* Github */}
-            <Link href="/github" className="w-9 h-9">
+            <Link href="https://github.com/Ani-Moopa/Moopa" className="w-9 h-9">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="xMinYMin meet"
@@ -83,7 +83,7 @@ export default function Home() {
               </svg>
             </Link>
             {/* Discord */}
-            <Link href="/discord" className="w-10 h-10">
+            <Link href="https://discord.gg/v5fjSdKwr2" className="w-10 h-10">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="xMidYMid"
@@ -96,11 +96,6 @@ export default function Home() {
               </svg>
             </Link>
           </div>
-          {/* <Link href={`/en/`}>
-            <div className="bg-action xl:text-xl text-white font-bold py-2 px-4 rounded hover:bg-[#fb6f44]">
-              Go back home
-            </div>
-          </Link> */}
         </div>
       </main>
     </>
